@@ -74,7 +74,7 @@ export default function ItemList() {
             <Main>
                 <ItemInfo>
                     <h3>{itemData?.name}</h3>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna dignissim egestas in sapien, vel. Massa diam</span>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna dignissim egestas in sapien, vel. Massa di</span>
                     <div>
                         {modelos.map((link, index) => <a key={index} href={link}>Modelo {index + 1}</a>)}
                     </div>
